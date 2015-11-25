@@ -17,7 +17,7 @@ indicator_keyboard_service_SOURCES = main.vala            \
                                      unity-session.vala   \
                                      unity-greeter.vala
 indicator_keyboard_service_VALAFLAGS = $(AM_VALAFLAGS)            \
-                                       --pkg gee-1.0              \
+                                       --pkg gee-0.8              \
                                        --pkg posix                \
                                        --pkg pangocairo           \
                                        --pkg gtk+-3.0             \
