@@ -1,3 +1,15 @@
+indicator-keyboard (0.0.0+16.04.20151125-0ubuntu1) xenial; urgency=medium
+
+  [ CI Train Bot ]
+  * New rebuild forced.
+
+  [ Sebastien Bacher ]
+  * Depends on libgnomekbd-common since the code uses its schemas (LP:
+    #1515562)
+  * Use the current libgee version (LP: #1502094)
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Wed, 25 Nov 2015 08:45:35 +0000
+
 indicator-keyboard (0.0.0+15.10.20151006-0ubuntu1) wily; urgency=medium
 
   [ CI Train Bot ]
