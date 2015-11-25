@@ -16,7 +16,7 @@ AM_VALAFLAGS = --enable-experimental-non-null   \
 indicator_keyboard_icon_generator_SOURCES = main.vala                     \
                                             $(top_srcdir)/lib/common.vala
 indicator_keyboard_icon_generator_VALAFLAGS = $(AM_VALAFLAGS)         \
-                                              --pkg gee-1.0           \
+                                              --pkg gee-0.8           \
                                               --pkg fontconfig-2.0    \
                                               --pkg freetype2-2.0     \
                                               --pkg PangoFT2-1.0      \
