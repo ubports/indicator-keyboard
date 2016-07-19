@@ -60,6 +60,19 @@ xdg_autostart_DATA = indicator-keyboard.desktop
 	$(AM_V_GEN) sed -e "s|\@pkglibexecdir\@|$(pkglibexecdir)|" $< > $@
 
 ###########################
+# Systemd configuration
+###########################
+
+%.service: %.service.in
+	$(AM_V_GEN) sed -e "s|\@pkglibexecdir\@|$(pkglibexecdir)|" $< > $@
+
+systemddir = $(SYSTEMD_USERDIR)
+systemd_DATA = indicator-keyboard.service
+
+upstartsystemdoverridedir = $(datadir)/upstart/systemd-session/upstart
+upstartsystemdoverride_DATA = indicator-keyboard.override
+
+###########################
 # Indicator Config
 ###########################
 
@@ -102,5 +115,6 @@ EXTRA_DIST = $(dist_service_DATA)   \
 	     $(dist_indicator_DATA) \
 	     $(gsettings_SCHEMAS) \
 	     indicator-keyboard.conf.in \
-	     indicator-keyboard.desktop.in
+	     indicator-keyboard.desktop.in \
+	     indicator-keyboard.service.in
 
