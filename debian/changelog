@@ -1,3 +1,9 @@
+indicator-keyboard (0.0.0+16.10.20160730-0ubuntu1) yakkety; urgency=medium
+
+  * Launch u-s-s under Mir/Unity8
+
+ -- Lukáš Tinkl <lukas.tinkl@canonical.com>  Sat, 30 Jul 2016 21:19:36 +0000
+
 indicator-keyboard (0.0.0+16.04.20151125-0ubuntu1) xenial; urgency=medium
 
   [ CI Train Bot ]
