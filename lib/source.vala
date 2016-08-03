@@ -471,7 +471,8 @@ public class Indicator.Keyboard.Source : Object {
 				Gtk.IconInfo? icon_info = icon_theme.lookup_icon (icon_name, 22, 0);
 
 				if (icon_info != null) {
-					icon = new ThemedIcon (icon_name);
+					string [] iconNames = {icon_name, "input-keyboard-symbolic"};
+					icon = new ThemedIcon.from_names (iconNames);
 				}
 			} else {
 				icon = new ThemedIcon (icon_name);
