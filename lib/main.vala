@@ -1145,6 +1145,11 @@ public class Indicator.Keyboard.Service : Object {
 
 	[DBus (visible = false)]
 	private void handle_activate_settings (Variant? parameter) {
+		if (Environment.get_variable ("MIR_SOCKET") != null) {
+			UrlDispatch.send ("settings:///system/hw-keyboard-layouts");
+			return;
+		}
+
 		try {
 			Process.spawn_command_line_async ("unity-control-center region layouts");
 		} catch (SpawnError error) {
