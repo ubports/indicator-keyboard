@@ -821,7 +821,7 @@ public class Indicator.Keyboard.Service : Object {
 		if (icon != null) {
 			builder.add ("{sv}", "icon", ((!) icon).serialize ());
 		} else {
-			var fallbackIcon = new ThemedIcon.with_default_fallbacks("input-keyboard");
+			var fallbackIcon = new ThemedIcon.with_default_fallbacks("input-keyboard-symbolic");
 			builder.add ("{sv}", "icon", fallbackIcon.serialize());
 		}
 
