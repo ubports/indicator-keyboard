@@ -1,3 +1,11 @@
+indicator-keyboard (0.0.0+16.10.20160808-0ubuntu1) yakkety; urgency=medium
+
+  [ Lukáš Tinkl ]
+  * Implement the "title" property and a fallback icon, if no keymap is
+    configured yet
+
+ -- Michał Sawicz <michal.sawicz@canonical.com>  Mon, 08 Aug 2016 08:15:01 +0000
+
 indicator-keyboard (0.0.0+16.10.20160730-0ubuntu1) yakkety; urgency=medium
 
   * Launch u-s-s under Mir/Unity8
