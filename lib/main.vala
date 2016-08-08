@@ -812,10 +812,17 @@ public class Indicator.Keyboard.Service : Object {
 		builder.add ("{sv}", "visible", indicator_settings.get_value ("visible"));
 		if (name != null) {
 			var description = _ ("%s input source").printf ((!) name);
+			builder.add ("{sv}", "title", new Variant.string ((!) name));
 			builder.add ("{sv}", "accessible-desc", new Variant.string (description));
+		} else {
+			builder.add ("{sv}", "title", new Variant.string (_("Keyboard Layout")));
+			builder.add ("{sv}", "accessible-desc", new Variant.string (_("Input source selection")));
 		}
 		if (icon != null) {
 			builder.add ("{sv}", "icon", ((!) icon).serialize ());
+		} else {
+			var fallbackIcon = new ThemedIcon.with_default_fallbacks("input-keyboard-symbolic");
+			builder.add ("{sv}", "icon", fallbackIcon.serialize());
 		}
 
 		get_indicator_action ().set_state (builder.end ());
