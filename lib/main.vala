@@ -436,6 +436,17 @@ public class Indicator.Keyboard.Service : Object {
 				var builder = new VariantBuilder (new VariantType ("a(ss)"));
 				var length = 0;
 
+				foreach (var pair in source_settings.get_value ("sources")) {
+					unowned string source_type;
+					unowned string source_name;
+
+					((!) pair).get ("(&s&s)", out source_type, out source_name);
+
+					builder.add ("(ss)", source_type, source_name);
+
+					length++;
+				}
+
 				var layout_settings = new Settings ("org.gnome.libgnomekbd.keyboard");
 				var layouts = layout_settings.get_strv ("layouts");
 
