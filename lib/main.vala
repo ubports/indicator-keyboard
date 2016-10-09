@@ -433,6 +433,7 @@ public class Indicator.Keyboard.Service : Object {
 			user_list.get_user_by_name ("");
 		} else {
 			if (!indicator_settings.get_boolean ("migrated")) {
+				string[] seen_sources = {};
 				var builder = new VariantBuilder (new VariantType ("a(ss)"));
 				var length = 0;
 
@@ -442,7 +443,12 @@ public class Indicator.Keyboard.Service : Object {
 
 					((!) pair).get ("(&s&s)", out source_type, out source_name);
 
+					if (source_name in seen_sources)
+						continue;
+
 					builder.add ("(ss)", source_type, source_name);
+
+					seen_sources += source_name;
 
 					length++;
 				}
@@ -455,7 +461,13 @@ public class Indicator.Keyboard.Service : Object {
 					source = source.replace (" ", "+");
 					source = source.replace ("\t", "+");
 
+					if (source in seen_sources)
+						continue;
+
 					builder.add ("(ss)", "xkb", source);
+
+					seen_sources += source;
+
 					length++;
 				}
 
