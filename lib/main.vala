@@ -433,8 +433,25 @@ public class Indicator.Keyboard.Service : Object {
 			user_list.get_user_by_name ("");
 		} else {
 			if (!indicator_settings.get_boolean ("migrated")) {
+				string[] seen_sources = {};
 				var builder = new VariantBuilder (new VariantType ("a(ss)"));
 				var length = 0;
+
+				foreach (var pair in source_settings.get_value ("sources")) {
+					unowned string source_type;
+					unowned string source_name;
+
+					((!) pair).get ("(&s&s)", out source_type, out source_name);
+
+					if (source_name in seen_sources)
+						continue;
+
+					builder.add ("(ss)", source_type, source_name);
+
+					seen_sources += source_name;
+
+					length++;
+				}
 
 				var layout_settings = new Settings ("org.gnome.libgnomekbd.keyboard");
 				var layouts = layout_settings.get_strv ("layouts");
@@ -444,7 +461,13 @@ public class Indicator.Keyboard.Service : Object {
 					source = source.replace (" ", "+");
 					source = source.replace ("\t", "+");
 
+					if (source in seen_sources)
+						continue;
+
 					builder.add ("(ss)", "xkb", source);
+
+					seen_sources += source;
+
 					length++;
 				}
 
