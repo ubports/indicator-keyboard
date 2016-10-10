@@ -1,3 +1,11 @@
+indicator-keyboard (0.0.0+16.10.20161010-0ubuntu1) yakkety; urgency=medium
+
+  [ Iain Lane ]
+  * Don't clobber unity-settings-daemon's configured input sources when
+    migrating from old configurations (LP: #1627057)
+
+ -- iain@orangesquash.org.uk <iain@orangesquash.org.uk>  Mon, 10 Oct 2016 14:20:13 +0000
+
 indicator-keyboard (0.0.0+16.10.20160808-0ubuntu1) yakkety; urgency=medium
 
   [ Lukáš Tinkl ]
