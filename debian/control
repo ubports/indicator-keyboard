@@ -21,6 +21,7 @@ Build-Depends: debhelper (>= 9.0.0),
                valac,
                xauth,
                xvfb,
+               systemd,
 Standards-Version: 3.9.4
 Homepage: https://code.launchpad.net/indicator-keyboard
 # If you aren't a member of ~indicator-applet-developers but need to upload
@@ -34,6 +35,7 @@ Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          libgnomekbd-common,
+         indicator-common,
 Breaks: ibus (<< 1.5.5-1ubuntu3),
 Description: Keyboard indicator
  This package contains the keyboard indicator, which should show as an icon in
