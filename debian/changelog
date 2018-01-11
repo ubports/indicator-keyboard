@@ -1,3 +1,9 @@
+indicator-keyboard (0.0.1+ubports1) xenial; urgency=medium
+
+  * Update Jenkinsfile
+
+ -- Dan Chapman <dan@ubports.com>  Thu, 11 Jan 2018 11:15:25 +0000
+
 indicator-keyboard (0.0.1+ubports) vivid; urgency=medium
 
   * Imported to UBports
