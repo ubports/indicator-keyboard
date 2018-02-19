@@ -1,0 +1,2 @@
+# Because dh-systemd does not yet support user units, we manually make the WantedBy link
+/usr/lib/systemd/user/indicator-keyboard.service /usr/lib/systemd/user/indicators.target.wants/indicator-keyboard.service
