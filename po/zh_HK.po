@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-keyboard\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2016-10-20 06:26+0000\n"
-"PO-Revision-Date: 2018-11-22 13:32+0000\n"
+"PO-Revision-Date: 2018-11-25 00:01+0000\n"
 "Last-Translator: Louies <louies0623@gmail.com>\n"
 "Language-Team: Chinese (Hong Kong) <https://translate.ubports.com/projects/"
 "ubports/indicator-keyboard/zh_Hant_HK/>\n"
@@ -35,7 +35,7 @@ msgstr "輸入來源選擇"
 
 #: ../lib/indicator-menu.vala:54
 msgid "Character Map"
-msgstr "字元對應表"
+msgstr "字符映射表"
 
 #: ../lib/indicator-menu.vala:55
 msgid "Keyboard Layout Chart"
@@ -43,4 +43,4 @@ msgstr "鍵盤佈局圖"
 
 #: ../lib/indicator-menu.vala:56
 msgid "Text Entry Settings..."
-msgstr "文字輸入設定..."
+msgstr "字符導入設置..."
