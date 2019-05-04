@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: indicator-keyboard\n"
-"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2016-10-20 06:26+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-03 18:45+0200\n"
 "PO-Revision-Date: 2019-02-11 20:28+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
@@ -20,16 +20,16 @@ msgstr ""
 "X-Generator: Weblate 3.1.1\n"
 "X-Launchpad-Export-Date: 2016-10-21 06:41+0000\n"
 
-#: ../lib/main.vala:837
+#: ../lib/main.vala:814
 #, c-format
 msgid "%s input source"
 msgstr "%s invoerbron"
 
-#: ../lib/main.vala:841
+#: ../lib/main.vala:818
 msgid "Keyboard Layout"
 msgstr "Toetsenbordindeling"
 
-#: ../lib/main.vala:842
+#: ../lib/main.vala:819
 msgid "Input source selection"
 msgstr "Invoerbron kiezen"
 
