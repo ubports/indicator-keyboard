@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-03 18:45+0200\n"
-"PO-Revision-Date: 2019-02-11 20:28+0000\n"
+"PO-Revision-Date: 2020-09-27 10:39+0000\n"
 "Last-Translator: Heimen Stoffels <vistausss@outlook.com>\n"
 "Language-Team: Dutch <https://translate.ubports.com/projects/ubports/"
 "indicator-keyboard/nl/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.1.1\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2016-10-21 06:41+0000\n"
 
 #: ../lib/main.vala:814
@@ -39,7 +39,7 @@ msgstr "Tekens en symbolen"
 
 #: ../lib/indicator-menu.vala:55
 msgid "Keyboard Layout Chart"
-msgstr "Toetsenbordindelingoverzicht"
+msgstr "Indelingsoverzicht"
 
 #: ../lib/indicator-menu.vala:56
 msgid "Text Entry Settings..."
