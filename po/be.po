@@ -8,28 +8,31 @@ msgstr ""
 "Project-Id-Version: indicator-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-03 18:45+0200\n"
-"PO-Revision-Date: 2013-10-14 10:04+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Belarusian <be@li.org>\n"
+"PO-Revision-Date: 2020-11-26 15:47+0000\n"
+"Last-Translator: Zmicer <nashtlumach@gmail.com>\n"
+"Language-Team: Belarusian <https://translate.ubports.com/projects/ubports/"
+"indicator-keyboard/be/>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2016-10-21 06:41+0000\n"
-"X-Generator: Launchpad (build 18246)\n"
 
 #: ../lib/main.vala:814
 #, c-format
 msgid "%s input source"
-msgstr "%s прылада для друку"
+msgstr "Крыніца ўводу %s"
 
 #: ../lib/main.vala:818
 msgid "Keyboard Layout"
-msgstr ""
+msgstr "Раскладка клавіятуры"
 
 #: ../lib/main.vala:819
 msgid "Input source selection"
-msgstr ""
+msgstr "Абраць крыніцу ўводу"
 
 #: ../lib/indicator-menu.vala:54
 msgid "Character Map"
@@ -37,8 +40,8 @@ msgstr "Мапа сімвалаў"
 
 #: ../lib/indicator-menu.vala:55
 msgid "Keyboard Layout Chart"
-msgstr "Паглядзець раскладку"
+msgstr "Схема раскладкі клавіятуры"
 
 #: ../lib/indicator-menu.vala:56
 msgid "Text Entry Settings..."
-msgstr "Перавагi ўвода тэксту"
+msgstr "Налады ўводу тэксту…"
