@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: indicator-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-03 18:45+0200\n"
-"PO-Revision-Date: 2020-11-20 20:15+0000\n"
+"PO-Revision-Date: 2020-12-07 18:28+0000\n"
 "Last-Translator: abidin <abidin24@tutanota.com>\n"
 "Language-Team: Arabic <https://translate.ubports.com/projects/ubports/"
 "indicator-keyboard/ar/>\n"
@@ -39,7 +39,6 @@ msgid "Character Map"
 msgstr "خريطة المحارف"
 
 #: ../lib/indicator-menu.vala:55
-#, fuzzy
 msgid "Keyboard Layout Chart"
 msgstr "رسمة تخطيط لوحة المفاتيح"
 
