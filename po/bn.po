@@ -8,37 +8,39 @@ msgstr ""
 "Project-Id-Version: indicator-keyboard\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-03 18:45+0200\n"
-"PO-Revision-Date: 2014-08-16 11:17+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Bengali <bn@li.org>\n"
+"PO-Revision-Date: 2021-01-30 14:27+0000\n"
+"Last-Translator: imrufbd <imrufbd@gmail.com>\n"
+"Language-Team: Bengali <https://translate.ubports.com/projects/ubports/"
+"indicator-keyboard/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 "X-Launchpad-Export-Date: 2016-10-21 06:41+0000\n"
-"X-Generator: Launchpad (build 18246)\n"
 
 #: ../lib/main.vala:814
 #, c-format
 msgid "%s input source"
-msgstr ""
+msgstr "%s লেখ্য উৎস"
 
 #: ../lib/main.vala:818
 msgid "Keyboard Layout"
-msgstr ""
+msgstr "কিবোর্ড নকশা"
 
 #: ../lib/main.vala:819
 msgid "Input source selection"
-msgstr ""
+msgstr "লেখ্য উৎস নির্বাচন"
 
 #: ../lib/indicator-menu.vala:54
 msgid "Character Map"
-msgstr ""
+msgstr "বর্ণচিত্র"
 
 #: ../lib/indicator-menu.vala:55
 msgid "Keyboard Layout Chart"
-msgstr ""
+msgstr "নকশার প্রতিরূপ"
 
 #: ../lib/indicator-menu.vala:56
 msgid "Text Entry Settings..."
-msgstr ""
+msgstr "লেখার সেটিংস ..."
